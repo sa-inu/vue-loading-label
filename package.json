@@ -1,0 +1,24 @@
+{
+  "name": "vue-loading-label",
+  "version": "1.0.0",
+  "description": "Simple loading label with icon in Vue2",
+  "main": "index.js",
+  "repository": "git@github.com:sa-inu/vue-loading-label.git",
+  "author": "sa-inu",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "production": "./node_modules/webpack/bin/webpack.js -p"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}
